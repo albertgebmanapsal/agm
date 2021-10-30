@@ -6,13 +6,26 @@
         <link rel='stylesheet' href='css\styles.css'>
     </head>
     <body>
-
-<!----------------------------------------------- HEADER SECTION - START -------------------------------------------------->
+        <!------------------------------------------ POPUP - START --------------------------------------------->
+        <div id='popupAboutme'>
+            <div id='aboutMe'>
+                <h2>About me</h2>
+                <p> Certified Computer Engineer</p>
+                <p> Gradudated from St. Peter's College Iligan City</p>
+                <p> Web Developer</p>
+                <div class='close'>
+                    <button onclick='myFunction()'>Close</button>
+                </div>
+            </div>
+        </div>
+        <!------------------------------------------ POPUP - START --------------------------------------------->
+        <!------------------------------------------ HEADER SECTION - START --------------------------------------------->
         <div id="header">
             <div id="compressitem">
                 <div id="menu">
                     <ul>
-                        <li><a href='#'>About</a></li>
+                       
+                        <li><a href='#' onclick='myFunction()'>About</a></li>
                         <li><a href='#'>Certificates</a></li>
                         <li><a href='#'>Achievements</a></li>
                     </ul>
@@ -26,9 +39,9 @@
             </div>
         </div>
        
-<!------------------------------------------------- HEADER SECTION - END --------------------------------------------------->
+        <!-------------------------------------------- HEADER SECTION - END ---------------------------------------------->
 
-<!------------------------------------------------ MIDDLE SECTION - START -------------------------------------------------->
+        <!------------------------------------------- MIDDLE SECTION - START --------------------------------------------->
         <div id='middlecontainer'>
             <div id='myProfile'>
                 <ul>
@@ -49,13 +62,26 @@
                 </div>
             </div>   
         </div>
-<!------------------------------------------------- MIDDLE SECTION - END --------------------------------------------------->
-
-<!------------------------------------------------- FOOTER SECTION - START --------------------------------------------------->
-        <div id="footer"> 
+        <!-------------------------------------------- MIDDLE SECTION - END ---------------------------------------------->
+        <!-------------------------------------------- FOOTER SECTION - START ---------------------------------------------->
+        <div id="footer">
             <div id='copyright'>© Copyright 2021</div>
             <div id='city'>El Salvador City Misamis Oriental</div>
         </div>
-<!-------------------------------------------------- FOOTER SECTION - END ---------------------------------------------------->
+        <!--------------------------------------------- FOOTER SECTION - END ----------------------------------------------->
+        </div>
     </body>
+    <script>
+      function myFunction() 
+        {
+         var x = document.getElementById("popupAboutme");
+        if (x.style.display === "block") 
+            {
+            x.style.display = "none";
+            } else {
+         x.style.display = "block";
+        }
+}
+    </script>
+
 </html>
