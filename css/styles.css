@@ -1,6 +1,6 @@
 body
 {
-    background-image: url('../css/images/background.jpg');
+    background-image: url('/images/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
@@ -102,7 +102,6 @@ a
 }
 #middlecontainer
 {
-    background-image: url('../css/images/background.jpg');
     display: flex;
     position: relative;
     margin: auto;
