@@ -4,7 +4,7 @@ body
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
-    display: block;
+    display: relative;
     height: 100%;
     width: 100%;
     margin: auto;
