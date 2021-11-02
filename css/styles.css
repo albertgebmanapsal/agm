@@ -102,6 +102,7 @@ a
 }
 #middlecontainer
 {
+    background-image: url('../css/images/background.jpg');
     display: flex;
     position: relative;
     margin: auto;
