@@ -1,6 +1,6 @@
 body
 {
-    background-image: url('/images/background.jpg');
+    background-image: url('../images/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
@@ -107,7 +107,8 @@ a
     margin: auto;
     justify-content: center;
     width: 900px;
-    padding: 100px;
+    height: 100%;
+    padding: 110px;
 }
 
 #myProfile
