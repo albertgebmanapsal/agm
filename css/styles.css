@@ -1,6 +1,6 @@
 body
 {
-    background-image: url('/images/background.jpg');
+    background-image: url('https://raw.githubusercontent.com/albertgebmanapsal/agm/master/images/background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: overlay;
